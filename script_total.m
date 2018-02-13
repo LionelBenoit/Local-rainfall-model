@@ -5,7 +5,7 @@ clear all
 %--------------------------------------------load and visualize data-------------------------------------------------------------------
 %****************parameters to set********************
 %Rq: Data files are in the Data folder               %*
-input_file='metadata_synthetic_Event.csv';           %*
+input_file='metadata_Nant_Event2.csv';           %*
 %**************end parameters to set******************
 [MeasuredRainTS]=read_raw_data(input_file);
 
