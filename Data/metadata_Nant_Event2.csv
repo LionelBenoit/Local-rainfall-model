@@ -1,0 +1,9 @@
+rain_gauge_description,data_file,Easting,Northing
+Pluvi1_relai,Event2_Pluvi1_relai.txt,573656,120705
+Pluvi2_glacier,Event2_Pluvi2_glacier.txt,573436,117843
+Pluvi3_chaux,Event2_Pluvi3_chaux.txt,573272,119709
+Pluvi4_glacier,Event2_Pluvi4_glacier.txt,573436,117843
+Pluvi5_pente,Event2_Pluvi5_pente.txt,574480,120506
+Pluvi6_chalet,Event2_Pluvi6_chalet.txt,574186,119904
+Pluvi7_montee,Event2_Pluvi7_montee.txt,573307,118509
+Pluvi8_moraine,Event2_Pluvi8_moraine.txt,572834,117918

@@ -1,0 +1,11 @@
+rain_gauge_description,data_file,Easting,Northing
+Pt_synthetic_1,Event_synthetic_pt1.txt,0,2000
+Pt_synthetic_2,Event_synthetic_pt2.txt,1000,2000
+Pt_synthetic_3,Event_synthetic_pt3.txt,2000,2000
+Pt_synthetic_4,Event_synthetic_pt4.txt,0,1000
+Pt_synthetic_5,Event_synthetic_pt5.txt,999,1000
+Pt_synthetic_6,Event_synthetic_pt6.txt,1001,1000
+Pt_synthetic_7,Event_synthetic_pt7.txt,2000,1000
+Pt_synthetic_8,Event_synthetic_pt8.txt,0,0
+Pt_synthetic_9,Event_synthetic_pt9.txt,1000,0
+Pt_synthetic_10,Event_synthetic_pt10.txt,2000,0
