@@ -9,6 +9,7 @@ for ep_to_plot=1:st
     set(gcf,'Visible', 'off'); 
     g=subplot(2,1,1);
     imagesc(M_for_gif(:,:,ep_to_plot));
+    title('Map of rain rate (mm/h)')
     %axis square
     axis equal tight
     caxis([0 max_color_scale])
@@ -20,14 +21,18 @@ for ep_to_plot=1:st
     colorbar
     
     p = get(g,'position');
-    set(g, 'position', p.*[-0.4 0.8 1.5 1.5]);
+    %set(g, 'position', p.*[-0.4 0.8 1.5 1.5]);
+    set(g, 'position', p.*[-0.4 0.8 1.5 1.2]);
     
     g2=subplot(2,1,2);
+    
     plot(reshape(mean(mean(M_for_gif)),[1,st]),'k')
     
     hold on
     plot(ep_to_plot,mean(mean(M_for_gif(:,:,ep_to_plot))),'r.','MarkerSize',10)
-    
+    title('Time series of rain rate averaged over the area of interest')
+    xlabel('Time (min)') % x-axis label
+    ylabel('Rain rate (mm/h)') % x-axis label
     p2 = get(g2,'position');
     set(g2, 'position', p2.*[1 1 1 0.8]);
     
