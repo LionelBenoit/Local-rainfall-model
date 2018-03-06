@@ -95,7 +95,7 @@ function [sum_log_likelihood]=likelihood_tot(Sigma, inv_Sigma, Z, Rm, m, size_bl
         Zb=Z((i1-1)*size_block_coord+1:i1*size_block_coord);
         
         NI=sum(Rmb>0);
-        log_likelihood_structure=-0.5*logdet(Sigma)-0.5*Zb'*inv_Sigma*Zb-NI*log(2*pi);
+        log_likelihood_structure=-0.5*logdet(Sigma)-0.5*Zb'*inv_Sigma*Zb-0.5*NI*log(2*pi);
         sum_log_likelihood_structure=sum_log_likelihood_structure+log_likelihood_structure;
         
         log_likelihood_anamorphose=0;
